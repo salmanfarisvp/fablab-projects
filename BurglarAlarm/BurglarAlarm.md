@@ -34,7 +34,7 @@ Piezo buzzer is an electronic device commonly used to produce sound. Light weigh
 
 Piezo buzzer is based on the inverse principle of piezo electricity discovered in 1880 by Jacques and Pierre Curie. It is the phenomena of generating electricity when mechanical pressure is applied to certain materials and the vice versa is also true. Such materials are called piezo electric materials. Piezo electric materials are either naturally available or man made. Piezo-ceramic is class of man made material, which poses piezo electric effect and is widely used to make disc, the heart of piezo buzzer.
 
-(https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/005.jpg)
+![piezo](https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/005.jpg)
 
 When subjected to an alternating electric field they stretch or compress, in accordance with the frequency of the signal thereby producing sound.
 
@@ -44,7 +44,7 @@ A piezoelectric disk generates a voltage when deformed (change in shape is great
 
 First we arr testing the hall-effect sensor and Buzzer with using arduino after that we are going to design custom pcb and make it next level
 
-(https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0014.jpg)
+![sensor test](https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0014.jpg)
 
 
 
@@ -58,11 +58,11 @@ now we can confirm sensor and code are working fine, next we are going to make m
 
 I used **Eagle** to design the circuit.
 
-(https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0022.jpg)
+![design](https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0022.jpg)
 
 and routed and completed the PCB designing
 
-(https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/009.jpg)
+![pcb](https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/009.jpg)
 
 
 
@@ -70,13 +70,13 @@ and routed and completed the PCB designing
 
 I exported board file as Monochrome PNG image file and milled with Modela MDX CNC machine.
 
-(https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0012.jpg)
-(https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0011.jpg)
-(https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0010.jpg)
+![trace](https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0012.jpg)
+![drill](https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0011.jpg)
+![drill](https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0010.jpg)
 
 for milling I used Flame Resist grade PCB, and milling completed perfectly.
 
-(https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0013.jpg)
+![milled pcb](https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0013.jpg)
 
 
 
@@ -90,15 +90,15 @@ for milling I used Flame Resist grade PCB, and milling completed perfectly.
 - Coil cell battery Holder x 1
 - ISP header x 1
 
-(https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0015.jpg)
+![components](https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0015.jpg)
 
 
 soldered components successfully,
 
-(https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0017.jpg)
+![soldered](https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0017.jpg)
 
 
-(https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0016.jpg)
+[soldered](https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0016.jpg)
 
 ```
 void setup()

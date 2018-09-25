@@ -1,4 +1,4 @@
 ## Fab Project's
 
 
-- [Burglar Alarm](https://salmanfarisvp.github.io/fablab-projects/BurglarAlarm)
+- [Burglar Alarm](https://salmanfarisvp.github.io/fablab-projects/BurglarAlarm/BurglarAlarm)

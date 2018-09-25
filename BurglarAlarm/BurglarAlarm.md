@@ -28,7 +28,7 @@ here Iam using **A1302-Linear Hall-Effect Sensor**  ([datasheet!(https://www.all
 
 #### Output Device - Piezo Buzzer
 
-(https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/003.jpg)
+![buzzer](https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/003.jpg)
 
 Piezo buzzer is an electronic device commonly used to produce sound. Light weight, simple construction and low price make it usable in various applications like car/truck reversing indicator, computers, call bells etc.
 

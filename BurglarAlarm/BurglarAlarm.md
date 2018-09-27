@@ -4,9 +4,29 @@ A simple burglar alarm built using an ATtiny45. You can attach it anywhere and w
 ![Alarm](https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/main.jpg)
 
 
-#### Story
+## Story 
 
 We are going to build a burglar alarm, for that we need to use sensor that sense presence or something as input device and we also need output device as a alarm the people here we are using buzzer. first we need to choose the sensor, I selected Hall effect sensor because it's very simple and easy to use, it's working based on the proximity of magnet, so we can measure the magnetic field based on the output voltage and if we can put the sensor and magnet between our door and we can program it to alarm when the magnetic field is low. and it's very low power and smaller footprint, so let's get start to make.
+
+<iframe width="615" height="352" src="https://www.youtube.com/embed/Aqp0Zq_OJ4g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+
+#### Machines Used 
+
+- Modela MDX-20 
+- Trotec Speedy 100 
+
+#### Process Included 
+
+- PCB MIlling Machine 
+- Laser Cutting 
+- Soldering 
+- Programming 
+
+
+
 
 here Iam using **A1302-Linear Hall-Effect Sensor**  ([datasheet!(https://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx)), and you can use any Hall-effect sensor for this project.
 
@@ -26,7 +46,7 @@ here Iam using **A1302-Linear Hall-Effect Sensor**  ([datasheet!(https://www.all
 
 ![blockdiagram](https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/002.jpg)
 
-#### Output Device - Piezo Buzzer
+## Output Device - Piezo Buzzer
 
 ![buzzer](https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/003.jpg)
 
@@ -54,7 +74,7 @@ First we arr testing the hall-effect sensor and Buzzer with using arduino after 
 
 now we can confirm sensor and code are working fine, next we are going to make mill a custom pcb using CNC milling machine.
 
-#### Circuit Design
+## Circuit Design
 
 I used **Eagle** to design the circuit.
 
@@ -66,9 +86,9 @@ and routed and completed the PCB designing
 
 
 
-#### PCB Milling
+## PCB Milling
 
-I exported board file as Monochrome PNG image file and milled with Modela MDX CNC machine.
+I exported board file as Monochrome PNG image file and milled with Modela MDX CNC machine.For learn more about check my  ([Fab Machine Guide for Model MDX-20!(https://salmanfarisvp.github.io/fablab-docs/modela))
 
 ![trace](https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0012.png)
 ![drill](https://raw.githubusercontent.com/salmanfarisvp/fablab-projects/master/BurglarAlarm/img/0011.png)
@@ -119,7 +139,7 @@ void loop()
 
  ```
 
-#### Demonstration
+## Demonstration
 
 <iframe width="615" height="352" src="https://www.youtube.com/embed/Aqp0Zq_OJ4g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -128,4 +148,4 @@ the same alarm we can use it in multiple places.
 <iframe width="615" height="352" src="https://www.youtube.com/embed/o99wMoNA4Zo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
-#### Thanks 
+## Thanks 
